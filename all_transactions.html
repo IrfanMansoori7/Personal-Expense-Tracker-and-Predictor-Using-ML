@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Transactions</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>All Transactions</h1>
+        <div class="action-buttons">
+            <a href="/" class="back-btn">← Back to Dashboard</a>
+            <a href="/graphs" class="graph-btn">View Graphs</a>
+            <form action="/delete-all" method="POST" class="delete-all-form">
+                <button type="submit" class="delete-all-btn">Delete All Transactions</button>
+            </form>
+        </div>
+        
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="flash-messages">
+                    {% for message in messages %}
+                        <div class="flash">{{ message }}</div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+        
+        <div class="card">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Category</th>
+                        <th>Amount</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for t in transactions %}
+                    <tr>
+                        <td>{{ t.date }}</td>
+                        <td>{{ t.description or '-' }}</td>
+                        <td>{{ categories.get(t.category, 'Unknown') }}</td>
+                        <td>₹{{ "%.2f"|format(t.amount) }}</td>
+                        <td>
+                            <form action="{{ url_for('delete_transaction', transaction_id=t.id) }}" method="POST">
+                                <button type="submit" class="delete-btn">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

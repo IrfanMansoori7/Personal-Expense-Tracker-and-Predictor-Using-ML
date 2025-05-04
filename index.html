@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Finance Manager</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💰 AI Finance Manager</h1>
+        
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="flash-messages">
+                    {% for message in messages %}
+                        <div class="flash">{{ message }}</div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+        
+        <div class="card">
+            <h2>Add Transaction</h2>
+            <form action="/add" method="POST">
+                <div class="form-group">
+                    <input type="number" step="0.01" name="amount" placeholder="Amount (₹)" required>
+                </div>
+                <div class="form-group">
+                    <select name="category" required>
+                        <option value="">Select Category</option>
+                        {% for id, name in categories.items() %}
+                            <option value="{{ id }}">{{ name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="date" name="date" max="{{ today }}" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="description" placeholder="Description (Optional)">
+                </div>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+        
+        <div class="card">
+            <h2>Bulk Upload (CSV)</h2>
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <input type="file" name="csv_file" accept=".csv" required>
+                </div>
+                <button type="submit">Upload CSV</button>
+            </form>
+            <div class="csv-sample">
+                <p>Sample CSV format:</p>
+                <pre>amount,category,date,description
+500.00,1,2023-08-01,Groceries
+200.00,2,2023-08-02,Movie</pre>
+            </div>
+        </div>
+        
+        <div class="card advice-card">
+            <h2>💬 AI Financial Advisor</h2>
+            <div class="chat-container">
+                {% for tip in advice %}
+                <div class="chat-message {% if loop.first %}ai-message{% else %}followup-message{% endif %}">
+                    {{ tip }}
+                </div>
+                {% endfor %}
+            </div>
+            <a href="/graphs" class="graph-btn">View Transaction Graphs</a>
+        </div>
+        
+        <div class="card">
+            <div class="table-header">
+                <h2>Recent Transactions (Last 10)</h2>
+                {% if all_transactions_count > 10 %}
+                    <a href="/all-transactions" class="view-all-btn">
+                        View All ({{ all_transactions_count }})
+                    </a>
+                {% endif %}
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Category</th>
+                        <th>Amount</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for t in transactions %}
+                    <tr>
+                        <td>{{ t.date }}</td>
+                        <td>{{ t.description or '-' }}</td>
+                        <td>{{ categories.get(t.category, 'Unknown') }}</td>
+                        <td>₹{{ "%.2f"|format(t.amount) }}</td>
+                        <td>
+                            <form action="{{ url_for('delete_transaction', transaction_id=t.id) }}" method="POST">
+                                <button type="submit" class="delete-btn">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

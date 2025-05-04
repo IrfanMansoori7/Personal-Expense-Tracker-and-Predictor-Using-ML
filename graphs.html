@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transaction Graphs</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Transaction Analysis</h1>
+        <div class="action-buttons">
+            <a href="/" class="back-btn">← Back to Dashboard</a>
+            <a href="/all-transactions" class="view-all-btn">View All Transactions</a>
+        </div>
+
+        <div class="graph-controls">
+            <button id="prev-graph" class="nav-btn">◀ Previous</button>
+            <span id="graph-title" class="graph-title">{{ titles[0] }}</span>
+            <button id="next-graph" class="nav-btn">Next ▶</button>
+        </div>
+
+        <div class="graph-display">
+            <img id="current-graph" src="data:image/png;base64,{{ graphs[0] }}" alt="Transaction Graph">
+        </div>
+
+        <div class="graph-thumbnails">
+            {% for graph in graphs %}
+            <img src="data:image/png;base64,{{ graph }}"
+                 alt="Thumbnail"
+                 class="thumbnail {% if loop.first %}active{% endif %}"
+                 data-index="{{ loop.index0 }}"
+                 title="{{ titles[loop.index0] }}">
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        const graphs = {{ graphs|tojson }};
+        const titles = {{ titles|tojson }};
+        let currentIndex = 0;
+
+        function showGraph(index) {
+            currentIndex = index;
+            document.getElementById('current-graph').src = `data:image/png;base64,${graphs[index]}`;
+            document.getElementById('graph-title').textContent = titles[index];
+
+            // Update active thumbnail
+            document.querySelectorAll('.thumbnail').forEach((thumb, i) => {
+                thumb.classList.toggle('active', i === index);
+            });
+        }
+
+        document.getElementById('prev-graph').addEventListener('click', () => {
+            showGraph((currentIndex - 1 + graphs.length) % graphs.length);
+        });
+
+        document.getElementById('next-graph').addEventListener('click', () => {
+            showGraph((currentIndex + 1) % graphs.length);
+        });
+
+        document.querySelectorAll('.thumbnail').forEach(thumb => {
+            thumb.addEventListener('click', () => {
+                showGraph(parseInt(thumb.dataset.index));
+            });
+        });
+    </script>
+</body>
+</html>
