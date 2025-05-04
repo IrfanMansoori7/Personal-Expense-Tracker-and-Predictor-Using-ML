@@ -1,0 +1,350 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #3498db;
+}
+
+h2 {
+    color: #3498db;
+    margin-top: 0;
+    font-size: 1.3em;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+}
+
+.delete-all-form {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.delete-all-btn {
+    background: #e74c3c;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.delete-all-btn:hover {
+    background: #c0392b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.flash-messages {
+    margin-bottom: 20px;
+}
+
+.flash {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: #ffeeba;
+}
+
+.csv-sample {
+    margin-top: 15px;
+    padding: 12px;
+    background: #f8f9fa;
+    border-radius: 6px;
+}
+
+.csv-sample pre {
+    background: #2d3748;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-family: monospace;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.view-all-btn, .back-btn, .graph-btn {
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.3s;
+    display: inline-block;
+}
+
+.view-all-btn {
+    background: #3498db;
+}
+
+.view-all-btn:hover {
+    background: #2980b9;
+}
+
+.back-btn {
+    background: #6c757d;
+}
+
+.back-btn:hover {
+    background: #5a6268;
+}
+
+.graph-btn {
+    background: #4CAF50;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.graph-btn:hover {
+    background: #45a049;
+}
+
+.action-buttons {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.advice-card {
+    background: #f8fafc;
+    border-left: 4px solid #3498db;
+}
+
+.chat-container {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.chat-message {
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    line-height: 1.6;
+    font-size: 15px;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.ai-message {
+    background: #3498db;
+    color: white;
+    border-bottom-left-radius: 0;
+}
+
+.followup-message {
+    background: #edf2f7;
+    border: 1px solid #e2e8f0;
+    border-bottom-left-radius: 0;
+}
+
+.graph-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.nav-btn {
+    background: #3498db;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.nav-btn:hover {
+    background: #2980b9;
+}
+
+.graph-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    min-width: 200px;
+    text-align: center;
+}
+
+.graph-display {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.graph-display img {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    border-radius: 5px;
+}
+
+.graph-thumbnails {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.thumbnail:hover {
+    border-color: #3498db;
+    transform: scale(1.05);
+}
+
+.thumbnail.active {
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    th, td {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .delete-all-form {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .delete-all-btn, .back-btn, .graph-btn, .view-all-btn {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .graph-thumbnails {
+        flex-wrap: wrap;
+    }
+    
+    .graph-controls {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .nav-btn {
+        width: 100%;
+    }
+}
