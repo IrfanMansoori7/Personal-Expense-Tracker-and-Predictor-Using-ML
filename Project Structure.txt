@@ -1,0 +1,13 @@
+Personal Expense Tracker and Predictor Using ML
+│
+├── backend/
+│   ├── app.py
+│   └── finance__advisor.py
+│
+├── frontend/
+│   ├── static/
+│   │   └── style.css
+│   └── templates/
+│       ├── index.html
+│       ├── graph.html
+│       └── all__transactions.html
