@@ -1,0 +1,331 @@
+amount,category,date,description
+303.70,2,2026-10-02,Corn maze entry
+525.90,3,2026-10-05,Halloween decorations (outdoor)
+337.00,4,2026-10-08,Winter wiper blades
+169.80,5,2026-10-11,Throat lozenges
+362.00,6,2026-10-14,Online history course
+321.10,7,2026-10-17,Draft stoppers for windows
+156.00,8,2026-10-20,Pumpkin carving kit
+510.40,1,2026-10-23,Thanksgiving turkey
+310.30,2,2026-10-26,Scary movie rental
+535.40,3,2026-10-29,Heated blanket
+344.00,4,2026-11-01,Antifreeze
+173.10,5,2026-11-04,Flu medicine
+369.00,6,2026-11-07,Coding bootcamp prep course
+326.60,7,2026-11-10,Humidifier maintenance
+159.50,8,2026-11-13,Holiday baking molds
+520.90,1,2026-11-16,Holiday feast groceries
+316.90,2,2026-11-19,Christmas carol concert tickets
+545.90,3,2026-11-22,Artificial Christmas tree
+351.00,4,2026-11-25,Car emergency kit
+176.40,5,2026-11-28,First aid supplies refill
+376.00,6,2026-12-01,Digital art software
+332.10,7,2026-12-04,Space heater (additional)
+163.00,8,2026-12-07,Gift wrapping service
+530.40,1,2026-12-10,Christmas ham
+323.50,2,2026-12-13,New Year's Eve party hats
+555.40,3,2026-12-16,Winter coat
+358.00,4,2026-12-19,Snow shovel
+179.70,5,2026-12-22,Cold weather face cream
+383.00,6,2026-12-25,Language learning software annual
+337.60,7,2026-12-28,Pipe insulation
+166.50,8,2026-12-31,New Year's Eve decorations
+540.90,1,2027-01-03,New Year detox groceries
+330.10,2,2027-01-06,Winter sports gear rental
+565.90,3,2027-01-09,Electric blanket
+365.00,4,2027-01-12,Tire rotation
+183.00,5,2027-01-15,Dry skin lotion
+390.00,6,2027-01-18,Photography equipment
+343.10,7,2027-01-21,Dehumidifier
+170.00,8,2027-01-24,Indoor plant
+550.40,1,2027-01-27,Comfort food groceries
+336.70,2,2027-01-30,Cabin getaway booking
+575.40,3,2027-02-02,Warm socks and gloves
+372.00,4,2027-02-05,Car wash and wax
+186.30,5,2027-02-08,Heating pad
+397.00,6,2027-02-11,Online writing workshop
+348.60,7,2027-02-14,Fire extinguisher inspection
+173.50,8,2027-02-17,Board game expansion
+560.90,1,2027-02-20,Valentine's Day meal kit
+343.30,2,2027-02-23,Romantic movie streaming
+585.90,3,2027-02-26,New pillows
+379.00,4,2027-03-01,Oil change
+189.60,5,2027-03-04,Spring cleaning gloves
+404.00,6,2027-03-07,Meditation app subscription
+354.10,7,2027-03-10,Drain cleaner
+177.00,8,2027-03-13,Spring scented candles
+570.40,1,2027-03-16,Spring produce box
+349.90,2,2027-03-19,Outdoor picnic blanket
+595.40,3,2027-03-22,Lightweight jacket
+386.00,4,2027-03-25,Bicycle repair tools
+192.90,5,2027-03-28,Allergy eye drops
+411.00,6,2027-03-31,Online guitar lessons
+359.60,7,2027-04-03,Window washing service
+180.50,8,2027-04-06,Gardening gloves
+580.90,1,2027-04-09,Easter baking supplies
+356.50,2,2027-04-12,Spring flower bouquet
+605.90,3,2027-04-15,Patio chair
+393.00,4,2027-04-18,Car detailing (spring)
+196.20,5,2027-04-21,Sun hat
+418.00,6,2027-04-24,Book club subscription
+365.10,7,2027-04-27,Lawn mower oil
+184.00,8,2027-04-30,Outdoor fairy lights
+590.40,1,2027-05-03,Mother's Day gift groceries
+363.10,2,2027-05-06,Spa day voucher
+615.40,3,2027-05-09,Outdoor dining set
+400.00,4,2027-05-12,Motorcycle helmet
+199.50,5,2027-05-15,High SPF sunscreen
+425.00,6,2027-05-18,Summer photography course
+370.60,7,2027-05-21,Pool opening service
+187.50,8,2027-05-24,Beach bag
+600.90,1,2027-05-27,Memorial Day barbecue food
+369.70,2,2027-05-30,Amusement park tickets
+625.90,3,2027-06-02,Portable speaker (outdoor)
+407.00,4,2027-06-05,Boat rental
+202.80,5,2027-06-08,Swimming goggles
+432.00,6,2027-06-11,Summer music festival tickets
+376.10,7,2027-06-14,Garden hose
+191.00,8,2027-06-17,Beach umbrella anchor
+610.40,1,2027-06-20,Father's Day grilling supplies
+376.30,2,2027-06-23,Outdoor movie projector rental
+635.40,3,2027-06-26,Inflatable pool
+414.00,4,2027-06-29,Electric fan for car
+206.10,5,2027-07-02,After-sun spray
+439.00,6,2027-07-05,Summer art camp
+381.60,7,2027-07-08,Barbecue cover
+194.50,8,2027-07-11,Travel pillow
+620.90,1,2027-07-14,Summer road trip snacks
+382.90,2,2027-07-17,Water park tickets
+645.90,3,2027-07-20,Portable air conditioner
+421.00,4,2027-07-23,Car window sun shades
+209.40,5,2027-07-26,Cooling towel
+446.00,6,2027-07-29,Online travel photography course
+387.10,7,2027-08-01,Pool cleaning service
+198.00,8,2027-08-04,Souvenirs from vacation
+630.40,1,2027-08-07,Back-to-school lunchbox items
+389.50,2,2027-08-10,Local summer theater
+655.40,3,2027-08-13,Outdoor string lights (new set)
+428.00,4,2027-08-16,Car inspection
+212.70,5,2027-08-19,Hand sanitizer for school
+453.00,6,2027-08-22,Fall language class registration
+392.60,7,2027-08-25,Rake for leaves
+201.50,8,2027-08-28,New journal for fall
+640.90,1,2027-08-31,Autumn harvest festival groceries
+396.10,2,2027-09-03,Apple picking orchard entry
+665.90,3,2027-09-06,Fall decor for home
+435.00,4,2027-09-09,Bicycle storage rack
+216.00,5,2027-09-12,Seasonal allergy nasal spray
+460.00,6,2027-09-15,Online business analytics course
+398.10,7,2027-09-18,Gutter cleaning service (fall)
+205.00,8,2027-09-21,Fall scented candles
+650.40,1,2027-09-24,Halloween party food
+402.70,2,2027-09-27,Haunted hayride tickets
+675.40,3,2027-09-30,Outdoor projector for Halloween
+442.00,4,2027-10-03,Car maintenance (pre-winter)
+219.30,5,2027-10-06,Cold and flu tea
+467.00,6,2027-10-09,Creative writing workshop (fall)
+403.60,7,2027-10-12,Weather stripping for doors
+208.50,8,2027-10-15,Halloween costume
+660.90,1,2027-10-18,Thanksgiving baking supplies
+409.30,2,2027-10-21,Fall foliage train tour
+685.90,3,2027-10-24,Electric fireplace
+449.00,4,2027-10-27,Snow tires installation
+222.60,5,2027-10-30,Hand warmers
+474.00,6,2027-11-02,Personal finance seminar (end-year)
+409.10,7,2027-11-05,Furnace filter replacement
+212.00,8,2027-11-08,Holiday decoration storage bins
+670.40,1,2027-11-11,Pre-holiday grocery shopping
+415.90,2,2027-11-14,Holiday light display entry
+695.40,3,2027-11-17,Winter gloves and scarf
+456.00,4,2027-11-20,Windshield wiper fluid (winter)
+225.90,5,2027-11-23,Lip balm with sunscreen (winter)
+481.00,6,2027-11-26,Online coding course (winter)
+414.60,7,2027-11-29,Humidifier refill
+215.50,8,2027-12-02,Holiday wrapping paper and ribbons
+680.90,1,2027-12-05,Christmas dinner ingredients
+422.50,2,2027-12-08,Holiday movie streaming subscription
+705.90,3,2027-12-11,Winter boots (new pair)
+463.00,4,2027-12-14,Car battery check
+229.20,5,2027-12-17,Cold sore treatment
+488.00,6,2027-12-20,New Year's Eve party tickets
+420.10,7,2027-12-23,Space heater (energy efficient)
+219.00,8,2027-12-26,New Year's resolutions planner
+690.40,1,2027-12-29,Post-holiday clearance groceries
+429.10,2,2028-01-01,New Year's Day brunch
+715.40,3,2028-01-04,Winter bedding
+470.00,4,2028-01-07,Tire chains (if needed)
+232.50,5,2028-01-10,Vitamin C supplements
+495.00,6,2028-01-13,Advanced data analysis course
+425.60,7,2028-01-16,De-icer for walkways
+222.50,8,2028-01-19,Indoor herb garden kit
+700.90,1,2028-01-22,Winter stew ingredients
+435.70,2,2028-01-25,Indoor rock climbing session
+725.90,3,2028-01-28,Warm throw blanket
+477.00,4,2028-01-31,Headlight restoration
+850,1,2023-08-01,Weekly groceries
+120,2,2023-08-01,Movie tickets
+45,4,2023-08-01,Public transport
+300,5,2023-08-02,Doctor visit
+75,1,2023-08-02,Supermarket run
+220,3,2023-08-03,Home supplies
+80,2,2023-08-03,Dining out
+150,7,2023-08-04,Electricity bill
+95,1,2023-08-04,Farmer's market
+180,2,2023-08-04,Concert tickets
+65,4,2023-08-05,Ride sharing
+420,5,2023-08-05,Pharmacy
+110,1,2023-08-06,Grocery delivery
+35,2,2023-08-06,Coffee shop
+200,3,2023-08-07,Cleaning products
+90,1,2023-08-07,Snacks
+135,7,2023-08-07,Internet bill
+250,6,2023-08-08,Online course
+85,1,2023-08-08,Bakery
+70,2,2023-08-08,Lunch out
+180,4,2023-08-09,Gasoline
+95,1,2023-08-09,Dairy products
+320,5,2023-08-10,Dental checkup
+55,2,2023-08-10,Streaming service
+140,3,2023-08-11,Kitchenware
+110,1,2023-08-11,Vegetables
+75,7,2023-08-12,Water bill
+210,8,2023-08-12,Miscellaneous
+90,1,2023-08-13,Beverages
+45,2,2023-08-13,Snacks
+160,4,2023-08-14,Car maintenance
+280,5,2023-08-14,Eye exam
+115,1,2023-08-15,Meat products
+65,2,2023-08-15,Happy hour
+190,3,2023-08-16,Home decor
+125,1,2023-08-16,Fruits
+85,7,2023-08-17,Phone bill
+240,6,2023-08-17,Books
+95,1,2023-08-18,Pantry items
+50,2,2023-08-18,Takeout
+170,4,2023-08-19,Public transport
+310,5,2023-08-19,Prescription
+105,1,2023-08-20,Frozen foods
+40,2,2023-08-20,Cinema
+200,3,2023-08-21,Laundry supplies
+135,1,2023-08-21,Bread
+95,7,2023-08-22,Gas bill
+220,8,2023-08-22,Gifts
+85,1,2023-08-23,Canned goods
+60,2,2023-08-23,Bar
+150,4,2023-08-24,Taxi
+290,5,2023-08-24,Therapy
+120,1,2023-08-25,Organic produce
+55,2,2023-08-25,Brunch
+180,3,2023-08-26,Toiletries
+130,1,2023-08-26,Spices
+75,7,2023-08-27,Trash service
+230,6,2023-08-27,Workshop
+90,1,2023-08-28,Condiments
+50,2,2023-08-28,Drinks
+160,4,2023-08-29,Bike repair
+300,5,2023-08-29,Vitamins
+110,1,2023-08-30,Dry goods
+70,2,2023-08-30,Dinner
+200,3,2023-08-31,Detergents
+140,1,2023-09-01,Juices
+85,7,2023-09-01,Cable bill
+240,6,2023-09-02,Magazines
+95,1,2023-09-03,Crackers
+50,2,2023-09-03,Ice cream
+170,4,2023-09-04,Bus fare
+310,5,2023-09-04,Medicine
+105,1,2023-09-05,Cereal
+40,2,2023-09-05,Arcade
+200,3,2023-09-06,Light bulbs
+135,1,2023-09-07,Milk
+95,7,2023-09-07,Internet
+220,8,2023-09-08,Donation
+85,1,2023-09-09,Flour
+60,2,2023-09-09,Bowling
+150,4,2023-09-10,Train
+290,5,2023-09-10,Checkup
+120,1,2023-09-11,Eggs
+55,2,2023-09-11,Theater
+180,3,2023-09-12,Curtains
+130,1,2023-09-13,Yogurt
+75,7,2023-09-13,Heating
+230,6,2023-09-14,Textbook
+90,1,2023-09-15,Cheese
+50,2,2023-09-15,Karaoke
+160,4,2023-09-16,Oil change
+300,5,2023-09-16,First aid
+110,1,2023-09-17,Pasta
+70,2,2023-09-17,Mini golf
+200,3,2023-09-18,Vacuum
+140,1,2023-09-19,Butter
+85,7,2023-09-20,Sewage
+240,6,2023-09-21,Notebook
+95,1,2023-09-22,Jam
+50,2,2023-09-22,Park
+170,4,2023-09-23,Subway
+310,5,2023-09-23,Painkillers
+105,1,2023-09-24,Honey
+40,2,2023-09-24,Zoo
+200,3,2023-09-25,Broom
+135,1,2023-09-26,Sugar
+95,7,2023-09-27,Recycling
+220,8,2023-09-28,Charity
+85,1,2023-09-29,Salt
+60,2,2023-09-29,Pool
+150,4,2023-09-30,Ferry
+290,5,2023-09-30,Bandages
+120,1,2023-10-01,Olive oil
+55,2,2023-10-01,Museum
+180,3,2023-10-02,Bucket
+130,1,2023-10-03,Vinegar
+75,7,2023-10-04,Garbage
+230,6,2023-10-05,Pencils
+90,1,2023-10-06,Pepper
+50,2,2023-10-06,Aquarium
+160,4,2023-10-07,Plane
+300,5,2023-10-07,Antibiotics
+110,1,2023-10-08,Rice
+70,2,2023-10-08,Carnival
+200,3,2023-10-09,Mop
+140,1,2023-10-10,Flakes
+85,7,2023-10-11,Dish soap
+240,6,2023-10-12,Calculator
+95,1,2023-10-13,Mayo
+50,2,2023-10-13,Billiards
+170,4,2023-10-14,Scooter
+310,5,2023-10-14,Cough syrup
+105,1,2023-10-15,Oats
+40,2,2023-10-15,Picnic
+200,3,2023-10-16,Sponge
+135,1,2023-10-17,Ketchup
+95,7,2023-10-18,Laundry
+220,8,2023-10-19,Tip
+85,1,2023-10-20,Mustard
+60,2,2023-10-20,Fair
+150,4,2023-10-21,Boat
+290,5,2023-10-21,Inhaler
+120,1,2023-10-22,Beans
+55,2,2023-10-22,Casino
+180,3,2023-10-23,Gloves
+130,1,2023-10-24,Lentils
+75,7,2023-10-25,Shampoo
+230,6,2023-10-26,Ruler
+90,1,2023-10-27,Syrup
+50,2,2023-10-27,Bingo
+160,4,2023-10-28,Helmet
+300,5,2023-10-28,Tablets
+110,1,2023-10-29,Quinoa
+70,2,2023-10-29,Circus
+200,3,2023-10-30,Duster
+140,1,2023-10-31,Flour
+85,7,2023-11-01,Toothpaste
+240,6,2023-11-02,Stapler
+95,1,2023-11-03,Corn
+50,2,2023-11-03,Darts
+170,4,2023-11-04,Skateboard
+310,5,2023-11-04,Antiseptic
+105,1,2023-11-05,Barley
+40,2,2023-11-05,Puppet show
+200,3,2023-11-06,Spray
+135,1,2023-11-07,Ketchup
+
